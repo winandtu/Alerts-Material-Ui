@@ -8,6 +8,7 @@ function App() {
     setOpen(true);
   };
 
+  // Close Alert
   const handleCloseAlert = (event, reason) => {
     if (reason === "clickaway") {
       return;
